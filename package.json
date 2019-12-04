@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "rm -Rf dist; parcel build index.html",
-    "lint": "stylelint **/*.css --fix"
+    "lint": "stylelint css/*.css --fix"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
