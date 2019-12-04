@@ -26,7 +26,7 @@ Author: Daniel Sokil
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/s0kil/Building-With-Backgrounds-And-Gradients/features/dist/index.html)
+[Live Demo Link](https://raw.githack.com/s0kil/Building-With-Backgrounds-And-Gradients/master/index.html)
 
 ## Contributing
 
