@@ -1,6 +1,16 @@
 # Building with Backgrounds and Gradients
 
-This project is a clone of the old [Apple Website](https://web.archive.org/web/20140301004610/http://www.apple.com/) with a focus on using gradients
+This project is a clone of the old [Apple Website](https://web.archive.org/web/20140301004610/http://www.apple.com/) with a focus on using CSS gradients
+
+### Running Project
+
+- `npm run dev`
+  - Starts up Parcel Bundler
+
+### Building Project
+
+- `npm run build`
+  - Parcel Bundler bundles all css files into one
 
 ## Solo Project
 
@@ -16,7 +26,7 @@ Author: Daniel Sokil
 
 ## Live Demo
 
-[Live Demo Link](https://cdn.statically.io/gh/s0kil/Building-With-Backgrounds-And-Gradients/features/index.html)
+[Live Demo Link](https://cdn.statically.io/gh/s0kil/Building-With-Backgrounds-And-Gradients/features/dist/index.html)
 
 ## Contributing
 
