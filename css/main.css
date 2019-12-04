@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "header.css";
+@import "modal.css";
 
 :root {
   --body-width: 1440px;
