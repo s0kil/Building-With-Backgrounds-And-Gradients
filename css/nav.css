@@ -18,11 +18,17 @@ nav button,
 nav button {
   width: 104px;
   border-right: 1px solid rgba(80, 80, 80);
+  cursor: pointer;
 }
 
 nav button:nth-child(1) {
   border-top-left-radius: var(--nav-button-border-radius);
   border-bottom-left-radius: var(--nav-button-border-radius);
+}
+
+nav button:hover {
+  background: #333;
+  background: linear-gradient(to left, #505050, #3d3d3d 30% 70%, #505050);
 }
 
 nav input {
