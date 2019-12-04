@@ -19,12 +19,12 @@
 
   cta.onclick = event => {
     event.preventDefault();
-    modal.classList.toggle("modal-active");
+    modal.classList.add("modal-active");
     video.play();
   };
 
   modalClose.onclick = () => {
     video.pause();
-    modal.classList.toggle("modal-active");
+    modal.classList.remove("modal-active");
   };
 })();
