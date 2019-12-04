@@ -1,0 +1,59 @@
+nav {
+  max-width: var(--body-width);
+  height: 36px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+nav button,
+#global-search {
+  border: none;
+  color: #fff;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  background: #5e5e5e;
+  background: linear-gradient(#808080, #707070, #666, #5e5e5e, #666, #707070, #808080);
+}
+
+nav button {
+  width: 104px;
+  border-right: 1px solid rgba(80, 80, 80);
+}
+
+nav button:nth-child(1) {
+  border-top-left-radius: var(--nav-button-border-radius);
+  border-bottom-left-radius: var(--nav-button-border-radius);
+}
+
+nav input {
+  width: 110px;
+  padding: 2px;
+  border: 0;
+  border-radius: 12px;
+  background: inherit;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+
+#nav-logo img {
+  height: 100%;
+}
+
+#global-search {
+  border-top-right-radius: var(--nav-button-border-radius);
+  border-bottom-right-radius: var(--nav-button-border-radius);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+#search-icon {
+  position: relative;
+}
+
+#search-icon svg {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -4px;
+  left: 6px;
+}
